@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio-Dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass styles/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsbow102/Portfolio-Dev.git"
+  },
+  "keywords": [],
+  "author": "Lindsey Bowen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsbow102/Portfolio-Dev/issues"
+  },
+  "homepage": "https://github.com/lindsbow102/Portfolio-Dev#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
