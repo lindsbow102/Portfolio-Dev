@@ -43,12 +43,12 @@
   padding: 0; }
 
 html {
-  font-size: 62.5%;
-  /*root font-size default is 16px--this sets it to 10px*/ }
+  font-size: 62.5%; }
 
 body {
-  box-sizing: border-box;
-  /* Eliminate padding/margin being added to specified height/width of box */
+  box-sizing: border-box; }
+
+body {
   font-family: "Lato", sans-serif;
   /* if Lato is not available, revert to sans-serif */
   /*font-size: 16px;*/
