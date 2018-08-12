@@ -5,6 +5,8 @@
         border-radius: 10rem;
         display: inline-block; /* allows button to be on same line as other content, but to behave like a block */
         font-size: 1.6rem;
+        letter-spacing: .5rem;
+        opacity: .8;
         padding: 1.5rem 4rem;
         position: relative; /* so that pseudo button will reference this element */
         text-decoration: none;
@@ -28,12 +30,12 @@
     }
 
     &--white {
-        background-color: $color-grey-light;
-        color: $color-white;
+        background-color: $color-grey-light-2;
+        color: $color-grey-dark;
 
         &::after {
-            background-color: $color-grey-light;
-            color: $color-white;
+            background-color: $color-grey-light-2;
+            color: $color-grey-dark;
         }
     }
 

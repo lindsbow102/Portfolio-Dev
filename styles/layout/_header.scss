@@ -5,7 +5,8 @@
         rgba($color-green, 0.849), rgba($color-purple, 0.842)),
         url("../img/bg-header.jpg");
     background-position: top;
-    background-size: cover;    
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* Starting clockwise from top left corner */    
     position: relative; /* Origin and reference from where logo-box positions itself */
 
     &__logo-box {

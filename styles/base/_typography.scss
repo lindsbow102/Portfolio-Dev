@@ -36,3 +36,19 @@ body {
         letter-spacing: 1.74rem;    
     }
 }
+
+.heading-secondary {
+    background-image: linear-gradient(to right, $color-purple, $color-green);
+    color: transparent; // This allows us to see background gradient
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .2s;
+    -webkit-background-clip: text; // Will clip the gradient to just where the text exists
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1); //Scales to 110%
+        text-shadow: .5rem 1rem 2rem rgba($color-black, .2); 
+    }
+}

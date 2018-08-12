@@ -1,5 +1,4 @@
 .row {
-    background-color: #eee;
     max-width: $grid-width; // Will fill 100% of available space if screen is < 114rem wide.
     margin: 0 auto; // center block elements inside of another block element (top/bottom 0 -- sides are auto margined)
     
@@ -10,8 +9,7 @@
     @include clearfix;
 
     [class^="col-"] {
-        background-color: orangered;
-        color: white;
+        color: gray;
         float: left;
 
         &:not(:last-child) {
