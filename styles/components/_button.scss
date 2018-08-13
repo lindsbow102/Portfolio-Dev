@@ -4,7 +4,7 @@
         border: .2rem solid $color-white;
         border-radius: 10rem;
         display: inline-block; /* allows button to be on same line as other content, but to behave like a block */
-        font-size: 1.6rem;
+        font-size: $default-font-size;
         letter-spacing: .5rem;
         opacity: .8;
         padding: 1.5rem 4rem;
@@ -56,4 +56,29 @@
         animation: moveInBottom 1s ease-out .75s; /* .75s --> delay after page refresh before animation occurs */
         animation-fill-mode: backwards; /* automatically applies styles at 0% before animation starts */
     }    
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        border-bottom: 1px solid $color-purple;
+        color: $color-purple;
+        display: inline-block;
+        font-size: $default-font-size;
+        padding: 3px;
+        text-decoration: none; 
+        transition: all .2s;       
+    }
+
+    &:hover {
+        background-color: $color-purple;
+        box-shadow: 0 1rem 2rem rgba($color-black,.2);
+        color: $color-white;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+        transform: translateY(0);
+    }
 }
