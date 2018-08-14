@@ -221,6 +221,27 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  transition: transform .3s; }
+  .feature-box__icon {
+    background-image: linear-gradient(to right, #615fee, #62d44d);
+    color: transparent;
+    display: inline-block;
+    font-size: 6rem;
+    margin-bottom: .5rem;
+    -webkit-background-clip: text; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+  .feature-box__link {
+    text-decoration: none;
+    text-transform: uppercase; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -278,6 +299,11 @@ body {
   background-color: #f7f7f7;
   margin-top: -20vh;
   padding: 25rem 0; }
+
+.section-features {
+  background-image: linear-gradient(to right bottom, rgba(98, 212, 77, 0.849), rgba(97, 95, 238, 0.842)), url("../img/bg-features.jpg");
+  background-size: cover;
+  padding: 20rem 0; }
 
 .img {
   margin: 2rem 2rem 2rem 0;
