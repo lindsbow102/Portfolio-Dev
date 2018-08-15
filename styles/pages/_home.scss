@@ -1,7 +1,7 @@
 .section-about {
     background-color: $color-grey-light-1;
     margin-top: -20vh; // since header cuts off at 75 out of 95vh, this makes up the diff
-    padding: 25rem 0;
+    padding: 20rem 0 25rem 0;
 }
 
 .section-features {
@@ -10,5 +10,11 @@
         rgba($color-green, 0.849), rgba($color-purple, 0.842)),
         url("../img/bg-features.jpg");
     background-size: cover;
-    padding: 20rem 0;
+    margin-top: -10rem;
+    padding: 15rem 0 20rem 0;
+    transform: skewY(-7deg);
+
+    & > * { // Selecting ALL direct children, present and future:)
+        transform: skewY(7deg);
+    }
 }

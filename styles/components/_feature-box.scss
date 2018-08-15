@@ -5,7 +5,7 @@
     font-size: 1.5rem;
     padding: 2.5rem; 
     text-align: center;
-    transition: transform .3s; // 'Transform' instead of 'all' since it refers to only one selector
+    transition: all .3s; // 'Transform' instead of 'all' since it refers to only one selector
 
     &__icon {
         background-image: linear-gradient(to right, $color-purple, $color-green);
@@ -18,10 +18,5 @@
 
     &:hover {
         transform: translateY(-1.5rem) scale(1.03);
-    }
-
-    &__link {
-        text-decoration: none;
-        text-transform: uppercase;
     }
 }
