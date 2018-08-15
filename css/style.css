@@ -316,7 +316,3 @@ body {
   transform: skewY(-7deg); }
   .section-features > * {
     transform: skewY(7deg); }
-
-.img {
-  margin: 2rem 2rem 2rem 0;
-  width: 30%; }
