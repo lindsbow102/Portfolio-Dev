@@ -133,37 +133,29 @@
             <div class="row">
                 <div class="col-3-of-4">
                     <form class="form-contact" action='mail.php' method='post'>
-                        <div class="form-contact__field u-margin-bottom-small">
+                        
                             <p>Name</p>
-                            <input type="text" id="name" name="name" placeholder="Your name..">
+                            <input class="form-contact__field u-margin-bottom-small" type="text" id="name" name="name" placeholder="Your name..">
                             <p>Email</p>
-                            <input type="text" id="email" name="email" placeholder="Your email..">
+                            <input class="form-contact__field u-margin-bottom-small" type="text" id="email" name="email" placeholder="Your email..">
                             <p>Message</p>
-                            <textarea name="message" placeholder="Your message..." rows="6" cols="25"></textarea>
-                            <input class="btn-text" href="lindseybwn@gmail.com" type="submit" value="Send">
-                            <input type="reset" value="Clear">
-                            <a href="lindseybwn@gmail.com">Email Me</a>
-                        </div>
-
-                        <a class="btn-text" href="mailto:lindseybwn@gmail.com">Submit</a>
+                            <textarea class="form-contact__message" name="message" placeholder="Your message..." rows="6" cols="25"></textarea>
+                            <br>
+                            <a class="btn-text" type="submit" value="submit" href="mailto:lindseybwn@gmail.com">Submit</a>
+                            <input type="reset" value="Clear" class="btn-text--clear">
+                        
                     </form>
                 </div>
                 <div class="col-1-of-4">
-                    <div class="social-media">
-                        <div class="social-media__linkedin u-margin-bottom-medium">
-                            <p>LinkedIn</p>
-                            <a class="social-media__linkedin social-media__linkedin--image" href="https://www.linkedin.com/in/lindsey-bowen-83723815b/">
-                                <img src="img/001-linkedin.png" alt="LinkedIn" />
-                            </a>
-                        </div>
-
-                        <div class="social-media__github">
-                            <p>GitHub</p>
-                            <a class="social-media__github social-media__github--image" href="https://github.com/lindsbow102">
-                                <img src="img/002-cat.png" alt="GitHub">
-                            </a>
-                        </div>
-
+                    <h3 class="heading-tertiary u-margin-bottom-medium u-center-text">Social Media</h3>
+                    <div class="social-media u-center-text">
+                        <a class="social-media__linkedin u-margin-bottom-medium" href="https://www.linkedin.com/in/lindsey-bowen-83723815b/">
+                            <img class="social-media__linkedin u-center-text" src="img/linkedin.jpg" alt="LinkedIn" />
+                        </a>
+                        <br>
+                        <a class="social-media__github" href="https://github.com/lindsbow102">
+                            <img class="social-media__github u-center-text" src="img/github.jpg" alt="GitHub">
+                        </a>
                     </div>
 
                 </div>
