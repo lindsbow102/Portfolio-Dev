@@ -270,14 +270,6 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
-.footer {
-  background-color: #191970;
-  color: #fff;
-  font-size: 2rem;
-  margin-bottom: -2rem;
-  padding: 3rem;
-  opacity: .7; }
-
 .form-contact {
   border: 1px solid gray;
   border-radius: 3px;
@@ -366,6 +358,14 @@ body {
     /* In relation to the element itself, not parent */
     text-align: center;
     /* Will center btn-white */ }
+
+.footer {
+  background-image: linear-gradient(to right, #191970, #90EE90);
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: -2rem;
+  padding: 3rem;
+  opacity: .7; }
 
 .section-about {
   background-color: #f7f7f7;
