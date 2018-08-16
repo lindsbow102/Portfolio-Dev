@@ -7,16 +7,16 @@
         outline-offset: 2rem; // This will give space between the image and its border on :hover
         position: absolute;
         transition: all .2s;
-        width: 55%;
+        width: 45%;
         z-index: 10; // Number is not really important (??)
 
         &--p1 {
-            left: 0;
-            top: -2rem;
+            left: 3rem;
+            top: -2.5rem;
         }
 
         &--p2 {
-            right: 0; // Moving 0 pixels from the right side of the container
+            right: 3.5rem; // Moving 0 pixels from the right side of the container
             top: 2rem; // 20 px down from the top
         }
 

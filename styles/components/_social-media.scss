@@ -1,0 +1,23 @@
+.social-media {
+    display: inline-block;
+    text-align: center;
+    transition: all .4s;
+    
+
+    &__linkedin {
+        font-size: 2rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &__github {
+        font-size: 2rem;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
