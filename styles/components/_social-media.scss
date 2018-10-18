@@ -1,14 +1,13 @@
 .social-media {    
     display: inline block;
-    text-align: center;
-    transition: all .4s;
-    
+    text-align: center;    
 
     &__linkedin {
         border-radius: 3px;
         font-size: 2rem;
         text-decoration: none;
         width: 8rem;
+        transition: transform .4s;
 
         &:hover {
                 box-shadow: 0 1rem 2rem rgba($color-black, .2);
@@ -21,6 +20,7 @@
         font-size: 2rem;
         margin-top: 1rem;
         width: 8rem;
+        transition: transform .4s;
 
         &:hover {
             box-shadow: 0 1rem 2rem rgba($color-black, .2);
